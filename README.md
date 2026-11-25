@@ -1,3 +1,16 @@
+# Kafle (fork CleanFrame)
+
+Ten fork zastępuje wygląd CleanFrame ekranem **Kafle**: osiem dużych, kolorowych kafelków aplikacji w siatce 4×2, czytelnych z kanapy także dla dziecka. Interfejs jest po polsku, z zegarem 24-godzinnym. Tło to codziennie inne, mocno rozmyte zdjęcie.
+
+- Pilot: strzałki, OK uruchamia, strzałka w górę prowadzi do „Tryb sztuki”, „Edytuj” i „Ustawienia”.
+- „Edytuj”: OK dodaje lub usuwa kafelek, ← → zmieniają kolejność, Wstecz zamyka. Wybór zapisuje się na telewizorze.
+- Kod nowego ekranu jest w `app/kafle/`, a obsługa telewizora pozostaje w `app/device.js` z CleanFrame. Poprzedni interfejs jest w `app/classic.html`.
+- Instalacja na telewizorze przebiega tak samo jak w CleanFrame (Developer Mode, Tizen Studio, własny certyfikat).
+
+Czcionka Inter Display: SIL Open Font License 1.1 (`app/kafle/inter-OFL.txt`). Znaki marek pochodzą z Simple Icons, jak w CleanFrame.
+
+---
+
 # CleanFrame
 
 A quieter home screen for Samsung The Frame. Your apps, a photograph and the time, with an interface made for the TV remote.
